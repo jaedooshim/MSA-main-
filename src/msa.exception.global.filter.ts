@@ -1,6 +1,7 @@
 import { ArgumentsHost, Catch, ExceptionFilter } from '@nestjs/common';
 import { Response } from 'express';
 
+// 타입추론이 안되어서 인터페이스 생성
 interface ICustomException {
   response?: {
     message?: string;
